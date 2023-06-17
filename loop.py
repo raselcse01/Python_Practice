@@ -37,3 +37,15 @@ while i <= 100:
      
 
 print("Hello")
+
+# for loop
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+# ------------------
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
